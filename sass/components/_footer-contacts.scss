@@ -1,0 +1,20 @@
+.contact-box__list {
+  @extend %list;
+  display: flex;
+  flex-direction: column;
+  font-family: inherit;
+  font-style: normal;
+}
+
+.contact-box__item:not(last-child) {
+  margin-bottom: 9px;
+}
+
+.contact-box__link {
+  @extend %link;
+  color: $footer-link-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}

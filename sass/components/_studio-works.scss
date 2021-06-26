@@ -1,0 +1,40 @@
+.our-work {
+  @extend %section;
+  padding-top: 0;
+}
+
+.conteiner__title {
+  @extend %title;
+  margin-bottom: 50px;
+}
+
+.work__list {
+  @extend %list;
+  display: flex;
+}
+
+.work__image {
+  display: block;
+  height: auto;
+}
+
+.work__item {
+  width: calc((100% - 60px) / 3);
+  position: relative;
+  &:not(last-child) {
+    margin-right: 30px;
+  }
+}
+
+.work__title {
+  @extend %title;
+  @include centeredFlex;
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  margin-bottom: 0;
+  width: 100%;
+  text-transform: uppercase;
+  background-color: $work-list-overlay;
+  color: $header-bg-color;
+}

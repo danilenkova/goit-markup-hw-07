@@ -1,0 +1,16 @@
+.site-footer {
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  background-color: $footer-bg-color;
+  color: $header-bg-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.site-footer__conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+}

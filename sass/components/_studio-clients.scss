@@ -1,0 +1,41 @@
+.clients {
+  @extend %section;
+  background-color: $header-bg-color;
+}
+
+.clients__list {
+  @extend %list;
+  display: inline-flex;
+}
+
+.clients__item {
+  width: 170px;
+  &:not(last-child) {
+    margin-right: 30px;
+  }
+}
+
+.clients__link {
+  @extend %link;
+  display: inline-block;
+  padding: 16px 32px;
+  background-color: $header-bg-color;
+  color: $icons-color;
+  border: 1px solid $icons-color;
+  border-radius: 4px;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    border-color: $accent-color;
+  }
+}
+
+.clients__icon {
+  width: 106px;
+  height: 60px;
+  fill: currentColor;
+  &:hover,
+  &:focus {
+    fill: currentColor;
+  }
+}

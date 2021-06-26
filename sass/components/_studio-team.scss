@@ -1,0 +1,43 @@
+.team-section {
+  @extend %section;
+  background-color: $primary-bg-color;
+}
+
+.team {
+  @extend %list;
+  display: flex;
+}
+
+.team__item {
+  background-color: $header-bg-color;
+  box-shadow: $team-cards-shadows;
+  border-radius: 0px 0px 4px 4px;
+  &:not(last-child) {
+    margin-right: 30px;
+  }
+}
+
+.team__image {
+  display: block;
+}
+
+.team__title {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team__description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.team__profession {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
