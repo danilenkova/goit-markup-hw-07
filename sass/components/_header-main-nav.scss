@@ -5,7 +5,7 @@
   letter-spacing: 0.02em;
 }
 
-.site-nav__list {
+.site-nav {
   @extend %list;
   display: flex;
 }

@@ -9,7 +9,7 @@
   margin-top: 0;
 }
 
-.logo, .site-nav__link, .header-contacts__link, .social__link, .clients__link, .portfolio__link, .contact-box__link, .footer-socail__link {
+.logo, .site-nav__link, .header-contacts__link, .social__link, .clients__link, .portfolio__link, .contact-box__link, .footer-social__icon {
   text-decoration: none;
   -webkit-transition-property: background-color, color, border-color, fill, -webkit-box-shadow;
   transition-property: background-color, color, border-color, fill, -webkit-box-shadow;
@@ -21,7 +21,7 @@
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav__list, .header-contacts, .feature__list, .work__list, .team, .social, .clients__list, .filter__list, .portfolio__list, .contact-box__list, .footer-social__list {
+.site-nav, .header-contacts, .feature__list, .work, .team, .social, .clients__list, .filter, .portfolio__list, .contact-box__list, .footer-social__list {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -129,7 +129,7 @@ p {
   letter-spacing: 0.02em;
 }
 
-.site-nav__list {
+.site-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -412,7 +412,7 @@ p {
   margin-bottom: 50px;
 }
 
-.work__list {
+.work {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -587,7 +587,7 @@ p {
   fill: currentColor;
 }
 
-.filter__list {
+.filter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -769,7 +769,7 @@ p {
   margin-right: 10px;
 }
 
-.footer-socail__link {
+.footer-social__icon {
   display: inline-block;
   width: 44px;
   height: 44px;
@@ -780,24 +780,24 @@ p {
   border-radius: 50%;
 }
 
-.footer-socail__link:hover, .footer-socail__link:focus {
+.footer-social__icon:hover, .footer-social__icon:focus {
   background-color: #2196f3;
 }
 
-.footer-socail__link--instagram {
-  background-image: url(../images/icons/instagram.svg);
+.feature__item--instagram::before {
+  background-image: url(../images/icons/instagram-icon.svg);
 }
 
-.footer-socail__link--twitter {
-  background-image: url(../images/icons/twitter.svg);
+.feature__item--twitter::before {
+  background-image: url(../images/icons/twitter-icon.svg);
 }
 
-.footer-socail__link--facebook {
-  background-image: url(../images/icons/facebook.svg);
+.feature__item--facebook::before {
+  background-image: url(../images/icons/facebook-icon.svg);
 }
 
-.footer-socail__link--linkedin {
-  background-image: url(../images/icons/linkedin.svg);
+.feature__item--linkedin::before {
+  background-image: url(../images/icons/linkedin-icon.svg);
 }
 
 .js-mailing-form__label {

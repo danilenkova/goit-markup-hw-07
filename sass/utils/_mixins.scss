@@ -3,3 +3,19 @@
   justify-content: $position;
   align-items: $align;
 }
+
+@mixin generateIcons($socialIcons) {
+  @each $iconName in $socialIcons {
+    .footer-social__icon--#{$iconName} {
+      background-image: url(../images/icons/#{$iconName}.svg);
+    }
+  }
+}
+
+@mixin generateIcons($techIcons) {
+  @each $iconName in $techIcons {
+    .feature__item--#{$iconName}::before {
+      background-image: url(../images/icons/#{$iconName}-icon.svg);
+    }
+  }
+}

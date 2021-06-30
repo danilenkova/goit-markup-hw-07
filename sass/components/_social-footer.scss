@@ -23,7 +23,7 @@
   }
 }
 
-.footer-socail__link {
+.footer-social__icon {
   @extend %link;
   display: inline-block;
   width: 44px;
@@ -37,19 +37,5 @@
   &:focus {
     background-color: $accent-color;
   }
-  &--instagram {
-    background-image: url(../images/icons/instagram.svg);
-  }
-
-  &--twitter {
-    background-image: url(../images/icons/twitter.svg);
-  }
-
-  &--facebook {
-    background-image: url(../images/icons/facebook.svg);
-  }
-
-  &--linkedin {
-    background-image: url(../images/icons/linkedin.svg);
-  }
 }
+@include generateIcons($socialIcons);

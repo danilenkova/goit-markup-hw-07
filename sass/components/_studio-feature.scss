@@ -23,22 +23,9 @@
     background-position: center;
     background-color: $feature-list-color;
   }
-  &--details::before {
-    background-image: url(../images/icons/details-icon.svg);
-  }
-
-  &--clock::before {
-    background-image: url(../images/icons/clock-icon.svg);
-  }
-
-  &--diagram::before {
-    background-image: url(../images/icons/diagram-icon.svg);
-  }
-
-  &--astronaut::before {
-    background-image: url(../images/icons/astronaut-icon.svg);
-  }
 }
+
+@include generateIcons($techIcons);
 
 .feature__title {
   @extend %title;
