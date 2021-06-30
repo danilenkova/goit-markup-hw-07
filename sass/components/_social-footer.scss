@@ -38,4 +38,5 @@
     background-color: $accent-color;
   }
 }
+
 @include generateIcons($socialIcons);

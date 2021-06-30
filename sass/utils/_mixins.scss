@@ -12,7 +12,7 @@
   }
 }
 
-@mixin generateIcons($techIcons) {
+@mixin generateTechIcons($techIcons) {
   @each $iconName in $techIcons {
     .feature__item--#{$iconName}::before {
       background-image: url(../images/icons/#{$iconName}-icon.svg);

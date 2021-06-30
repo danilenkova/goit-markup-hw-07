@@ -25,7 +25,7 @@
   }
 }
 
-@include generateIcons($techIcons);
+@include generateTechIcons($techIcons);
 
 .feature__title {
   @extend %title;

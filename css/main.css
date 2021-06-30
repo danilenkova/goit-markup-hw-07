@@ -784,20 +784,20 @@ p {
   background-color: #2196f3;
 }
 
-.feature__item--instagram::before {
-  background-image: url(../images/icons/instagram-icon.svg);
+.footer-social__icon--instagram {
+  background-image: url(../images/icons/instagram.svg);
 }
 
-.feature__item--twitter::before {
-  background-image: url(../images/icons/twitter-icon.svg);
+.footer-social__icon--twitter {
+  background-image: url(../images/icons/twitter.svg);
 }
 
-.feature__item--facebook::before {
-  background-image: url(../images/icons/facebook-icon.svg);
+.footer-social__icon--facebook {
+  background-image: url(../images/icons/facebook.svg);
 }
 
-.feature__item--linkedin::before {
-  background-image: url(../images/icons/linkedin-icon.svg);
+.footer-social__icon--linkedin {
+  background-image: url(../images/icons/linkedin.svg);
 }
 
 .js-mailing-form__label {
